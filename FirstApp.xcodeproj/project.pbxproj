@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A751DB58278CF92C0019FDC3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751DB57278CF92C0019FDC3 /* WelcomeView.swift */; };
+		A751DB5A278CF9450019FDC3 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751DB59278CF9450019FDC3 /* ExerciseView.swift */; };
 		A79721F4278AFE3600BACF32 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79721F3278AFE3600BACF32 /* FirstAppApp.swift */; };
 		A79721F6278AFE3600BACF32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79721F5278AFE3600BACF32 /* ContentView.swift */; };
 		A79721F8278AFE3700BACF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79721F7278AFE3700BACF32 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A751DB57278CF92C0019FDC3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A751DB59278CF9450019FDC3 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		A79721F0278AFE3600BACF32 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79721F3278AFE3600BACF32 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
 		A79721F5278AFE3600BACF32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A751DB5B278CF9700019FDC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A79721F5278AFE3600BACF32 /* ContentView.swift */,
+				A751DB57278CF92C0019FDC3 /* WelcomeView.swift */,
+				A751DB59278CF9450019FDC3 /* ExerciseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A79721E7278AFE3600BACF32 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				A79721F3278AFE3600BACF32 /* FirstAppApp.swift */,
-				A79721F5278AFE3600BACF32 /* ContentView.swift */,
+				A751DB5B278CF9700019FDC3 /* Views */,
 				A79721F7278AFE3700BACF32 /* Assets.xcassets */,
 				A79721F9278AFE3700BACF32 /* Preview Content */,
 			);
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A751DB5A278CF9450019FDC3 /* ExerciseView.swift in Sources */,
 				A79721F6278AFE3600BACF32 /* ContentView.swift in Sources */,
+				A751DB58278CF92C0019FDC3 /* WelcomeView.swift in Sources */,
 				A79721F4278AFE3600BACF32 /* FirstAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 977W2G8HWL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 977W2G8HWL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
